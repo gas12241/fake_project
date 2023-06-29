@@ -23,7 +23,7 @@ public class PokemonController {
 
     @RequestMapping(value = "/pokemon", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
-    public Pokemon getQuote() {
+    public Pokemon getPokemon() {
 
         Random rand = new Random();
 
